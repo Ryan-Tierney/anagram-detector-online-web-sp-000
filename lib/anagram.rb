@@ -7,5 +7,10 @@ class Anagram
   end 
   
   def match
+    if array.split.sort == array.split.sort
+      true 
+    else 
+      false
+    end
   end 
 end 

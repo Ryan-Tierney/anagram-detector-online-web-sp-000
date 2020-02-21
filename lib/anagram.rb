@@ -7,7 +7,7 @@ class Anagram
   end 
   
   def match(array_of_words)
-    if array_of_words.split.sort == array.split.sort
+   array_of_words.select do |
       true 
     else 
       false
